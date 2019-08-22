@@ -51,13 +51,14 @@ h3 {
 
 }
 
+
 li {
 	display: inline;
 	margin: 10px;
 
 }
 
-ul {
+a {
 	color: #CCCCCC;
 	text-decoration:none;
 }
@@ -83,7 +84,7 @@ ul {
 	font-size: 19px;
 }
 .tete {
-	border: solid 4px #EBEBEB;
+	border: solid 4px #CCCCCC;
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
@@ -94,6 +95,7 @@ ul {
 	height: 160px;
 	width: 105px;
 	padding-top: 20px;
+	padding-left: 10px;
 }
 
 .links {
@@ -101,6 +103,8 @@ ul {
 	text-align: center;
 	color: #CCCCCC;
 	text-decoration:none;
+	padding-bottom: 5%;
+	padding-top: 5%;
 }
 
 p {
