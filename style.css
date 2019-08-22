@@ -1,7 +1,108 @@
 /* CSS for Tim Berners's page */
+body {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	max-width: 40em;
+	margin: 0 auto;
+	padding: 5%;
+	grid-gap: 2em;
+	background-color: #EBEBEB;
+	font-family:'Open Sans', sans-serif;
+	color: #7D7D7D;
+}
+
+.head, .links, .movies {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	font-size: 19px;
+	border: outset 1px;	
+
+}
+
+.head {
+	grid-area: 1 / 1 / 2 / 3;
+	text-align: center;
+}
+.links {
+	grid-area: 2 / 1 / 3 / 3;
+}
+.movies {
+	grid-area: 3 / 1 / 4 / 3;
+}
 
 
 
-img {
-	vertical-align: middle;
+h1 {
+	color: #D45456;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+
+.his {
+	background-color:#EBEBEB;
+
+
+}
+
+li {
+	display: inline;
+	margin: 10px;
+
+}
+
+ul {
+	color: #CCCCCC;
+	text-decoration:none;
+}
+
+.button {
+
+	background-color: #D45456;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	border-radius: 5px;
+	font-weight: bold;
+
+}
+
+
+.head {
+	font-size: 19px;
+}
+.tete {
+	border: solid 4px #EBEBEB;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+}
+
+.filmos {
+	height: 160px;
+	width: 105px;
+	padding-top: 20px;
+}
+
+.links {
+	text-decoration: none;
+	text-align: center;
+	color: #CCCCCC;
+	text-decoration:none;
+}
+
+p {
+	padding: 10px;
 }
