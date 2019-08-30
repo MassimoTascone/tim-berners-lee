@@ -1,0 +1,19 @@
+// Sass for Tim Berners
+
+
+/* Style SASS for Tim Beners */
+
+// Variables
+
+$color-red:#D45456;
+$color-grey: #EBEBEB;
+
+body {
+    display: grid;
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: $color-grey;
+    font-family: 'Open Sans', sans-serif;
+
+}

@@ -1,0 +1,11 @@
+/* Style SASS for Tim Beners */
+body {
+  display: -ms-grid;
+  display: grid;
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 5%;
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
