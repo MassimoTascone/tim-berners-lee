@@ -8,6 +8,7 @@
 $color-red:#D45456;
 $color-grey: #EBEBEB;
 $color-rows: #FFFFFF;
+$color-text: #7D7D7D;
 
 body {
     display: grid;
@@ -17,10 +18,11 @@ body {
     background-color: $color-grey;
     font-family: 'Open Sans', sans-serif;
     grid-gap: 2em;
+    color: $color-text;
 
     h1 {
         color:$color-red;
-        font-weight: bold;
+        font-weight: bold; 
     }
 
     h2 {
@@ -60,4 +62,62 @@ body {
     margin: 20px;
     text-align: center;
 }
+.head {
+    text-align: center;
+    a {
+        background-color: $color-red;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        border-radius: 5px;
+        font-weight: bold;
+          
+    }
+
+}
+
+.button:hover {
+    lighten:( $color-red, 50% )
+}
+
+
+/* Links */
+
+.links {
+    text: {
+        decoration: none;
+        align: center;
+    }
+    padding-bottom: 5%;
+    padding-top: 5%;
+    li {
+        display: inline;
+        margin: 10px;
+    }
+    text: {
+        decoration: none;
+        align: center;
+    }
+    padding: {
+        bottom: 5%;
+        top: 5%;
+    }
+}
+
+/* Movies */
+
+.filmos {
+    height: 160px;
+    width: 105px;
+    padding: {
+        top: 20px;
+        left: 10px;
+    }
+}
+
 
