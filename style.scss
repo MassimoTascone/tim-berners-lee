@@ -7,6 +7,7 @@
 
 $color-red:#D45456;
 $color-grey: #EBEBEB;
+$color-rows: #FFFFFF;
 
 body {
     display: grid;
@@ -15,5 +16,48 @@ body {
     padding: 5%;
     background-color: $color-grey;
     font-family: 'Open Sans', sans-serif;
+    grid-gap: 2em;
 
+    h1 {
+        color:$color-red;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-weight: bold;
+        text-align: center;
+
+    }
+    h3 {
+        text-align: center;
+    }
 }
+/* Setting the rows */
+.head {
+    grid-row: 1;
+}
+
+.links {
+    grid-row:2;
+}
+
+.movies {
+    grid-row:3;
+}
+
+.head, .links, .movies {
+    background-color: $color-rows;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+/* Head */
+.tete {
+    border: solid 4px #CCCCCC;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+}
+
