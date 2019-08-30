@@ -1,4 +1,5 @@
 /* Style SASS for Tim Beners */
+/* Body */
 body {
   display: -ms-grid;
   display: grid;
@@ -45,6 +46,7 @@ body h3 {
   background-color: #FFFFFF;
   border-radius: 5px;
   font-size: 19px;
+  border: outset 1px;
 }
 
 /* Head */
@@ -59,6 +61,11 @@ body h3 {
 
 .head {
   text-align: center;
+}
+
+.head p {
+  padding: 40px;
+  text-align: justify;
 }
 
 .head a {
@@ -76,24 +83,22 @@ body h3 {
 }
 
 .button:hover {
-  lighten: #D45456, 50%;
+  background-color: #e8a6a7;
 }
 
 /* Links */
 .links {
-  text-decoration: none;
   text-align: center;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  text-decoration: none;
-  text-align: center;
-  padding-bottom: 5%;
-  padding-top: 5%;
 }
 
 .links li {
-  display: inline;
-  margin: 10px;
+  display: inline-block;
+  padding: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #CCCCCC;
 }
 
 /* Movies */
@@ -102,5 +107,13 @@ body h3 {
   width: 105px;
   padding-top: 20px;
   padding-left: 10px;
+}
+
+table p {
+  padding: 30px;
+}
+
+.his {
+  background-color: #EBEBEB;
 }
 /*# sourceMappingURL=style.css.map */

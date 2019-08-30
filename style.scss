@@ -10,6 +10,9 @@ $color-grey: #EBEBEB;
 $color-rows: #FFFFFF;
 $color-text: #7D7D7D;
 
+
+/* Body */
+
 body {
     display: grid;
     max-width: 40em;
@@ -51,6 +54,7 @@ body {
     background-color: $color-rows;
     border-radius: 5px;
     font-size: 19px;
+    border: outset 1px;
 }
 
 /* Head */
@@ -63,6 +67,10 @@ body {
     text-align: center;
 }
 .head {
+    p {
+        padding: 40px;
+        text-align: justify;
+    }
     text-align: center;
     a {
         background-color: $color-red;
@@ -82,30 +90,25 @@ body {
 }
 
 .button:hover {
-    lighten:( $color-red, 50% )
+    background-color: lighten($color-red, $amount: 20%);
 }
 
 
 /* Links */
 
 .links {
-    text: {
-        decoration: none;
-        align: center;
-    }
-    padding-bottom: 5%;
-    padding-top: 5%;
+    text-align: center;
+
     li {
-        display: inline;
-        margin: 10px;
+        display: inline-block;
+        padding: 20px;
+
     }
-    text: {
-        decoration: none;
-        align: center;
-    }
-    padding: {
-        bottom: 5%;
-        top: 5%;
+
+
+    a {
+        text-decoration: none;
+        color: #CCCCCC;
     }
 }
 
@@ -120,4 +123,13 @@ body {
     }
 }
 
+table {
+    p {
+        padding: 30px;
+    }
+}
+
+.his {
+    background-color: $color-grey;
+}
 
